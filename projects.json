@@ -1,0 +1,20 @@
+{
+  "backend": [
+    {
+      "id": "backend-1",
+      "title": "Stage 0 — API Integration & Data Processing",
+      "description": "Built a GET endpoint that integrates with the Genderize API and returns processed responses. Implemented data validation, confidence logic, error handling, and edge case management. Deployed on Vercel with proper CORS configuration.",
+      "github": "https://github.com/MasterIfeanyi/hng-stage0-backend",
+      "live": "https://hng-stage0-backend-eta.vercel.app"
+    }
+  ],
+  "frontend": [
+    {
+      "id": "frontend-1",
+      "title": "Example Frontend Project",
+      "description": "This is an example frontend project. Replace this with your actual projects!",
+      "github": "https://github.com/yourusername/project",
+      "live": "https://yourproject.vercel.app"
+    }
+  ]
+}
