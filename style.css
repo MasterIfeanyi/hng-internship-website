@@ -1,0 +1,111 @@
+/* Simple black and white styling */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Utils */
+.section {
+    padding: 40px 0;
+}
+
+/* Badges */
+.badge {
+    font-weight: normal;
+    padding: 0.8rem 1rem;
+    margin: 0 0.25rem;
+}
+
+/* Tabs */
+.nav-tabs {
+    border-bottom: none;
+    gap: 0.8rem;
+    display: flex;
+    width: 100%;
+}
+
+.nav-tabs .nav-item {
+    flex: 1;
+    margin: 0;
+}
+
+.nav-tabs .nav-link {
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 1rem;
+    padding: 0.75rem 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+    font-weight: bold;
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #857f7f;
+    color: #ffffff;
+    border: 2px solid #000000;
+}
+
+/* Project cards */
+.project-card {
+    border: 1px solid #000000;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #ffffff;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-card p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.project-card .btn {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+.btn-outline-dark {
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.btn-outline-dark:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Footer */
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+}
